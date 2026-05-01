@@ -88,7 +88,7 @@ const reviews = [
     seriesId: "usm",
     type: "issue",
     image: "",
-    file: "",
+    file: "reseñas/reseñas/usm/usm1.html",
     featured: true
   },
   {
@@ -98,7 +98,7 @@ const reviews = [
     seriesId: "usm",
     type: "issue",
     image: "",
-    file: "",
+    file: "reseñas/reseñas/usm/usm2.html",
     featured: false
   },
   {
@@ -128,7 +128,7 @@ const reviews = [
   seriesId: "amm",
   type: "issue",
   image: "images/amm10.jpg",
-  file: "",
+  file: "reseñas/reseñas/amm/amm10.html",
   featured: true
 },
 {
@@ -138,7 +138,7 @@ const reviews = [
   seriesId: "amm",
   type: "issue",
   image: "images/amm10.jpg",
-  file: "",
+  file: "reseñas/reseñas/amm/amm9.html",
   featured: false
 },
   {
@@ -148,7 +148,7 @@ const reviews = [
     seriesId: "amm",
     type: "tpb",
     image: "",
-    file: "",
+    file: "reseñas/reseñas/amm/amm-vol1.html",
     featured: false
   }
 ];
