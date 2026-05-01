@@ -2,12 +2,14 @@
 
 const reviews = [
   {
-    id: "batman-38",
-    title: "Batman #38",
-    series: "Batman",
-    seriesId: "batman",
+    id: "bone-1",
+    title: "Bone #1",
+    series: "Bone",
+    seriesId: "bone",
     type: "issue",
-    content: "This issue focuses on..."
+    image: "",
+    content: "This issue focuses on...",
+    featured: true
   },
   {
     id: "usm-1",
@@ -15,23 +17,29 @@ const reviews = [
     series: "Ultimate Spider-Man (2009)",
     seriesId: "usm",
     type: "issue",
-    content: "A fresh start..."
+    image: "",
+    content: "A fresh start...",
+    featured: true
   },
-  {
-    id: "amm-10",
-    title: "Absolute Martian Manhunter #10",
-    series: "Absolute Martian Manhunter",
-    seriesId: "amm",
-    type: "issue",
-    content: "Strong psychological themes..."
-  },
+{
+  id: "amm-10",
+  title: "Absolute Martian Manhunter #10",
+  series: "Absolute Martian Manhunter",
+  seriesId: "amm",
+  type: "issue",
+  image: "images/amm10.jpg",
+  content: "Strong psychological themes...",  // ✅ comma
+  featured: true
+},
   {
     id: "amm-vol1",
     title: "Absolute Martian Manhunter Vol. 1 (TPB)",
     series: "Absolute Martian Manhunter",
     seriesId: "amm",
     type: "tpb",
-    content: "Collects issues..."
+    image: "",
+    content: "Collects issues #1 - #6 of Absolute Martian Manhunter",
+    featured: false
   }
 ];
 
@@ -40,13 +48,15 @@ const reviews = [
 function goHome() {
   const app = document.getElementById("app");
 
+  const featuredReviews = reviews.filter(r => r.featured);
+
   let html = `
     <div class="container">
-      <h2>Latest Reviews</h2>
+      <h2>Featured Reviews</h2>
       <div class="grid">
   `;
 
-  reviews.forEach(review => {
+  featuredReviews.forEach(review => {
     html += `
       <div class="card" onclick="openReview('${review.id}')">
         <img src="${review.image}" alt="${review.title}">
