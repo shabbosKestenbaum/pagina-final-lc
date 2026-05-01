@@ -8,7 +8,7 @@ const reviews = [
     seriesId: "bone",
     type: "issue",
     image: "",
-    content: "This issue focuses on...",
+    file: "reseñas/reseñas/bone/bone1.html",
     featured: true
   },
   {
@@ -74,9 +74,12 @@ function goHome() {
 
 // RESEÑAS
 
-function openReview(id) {
+async function openReview(id) {
   const review = reviews.find(r => r.id === id);
   const app = document.getElementById("app");
+
+  const response = await fetch(review.file);
+  const content = await response.text();
 
   app.innerHTML = `
     <div class="container">
@@ -85,10 +88,7 @@ function openReview(id) {
         <img src="${review.image}" style="width:250px; border-radius:10px;">
 
         <div style="max-width:600px;">
-          <h2>${review.title}</h2>
-          <p><em>${review.series}</em></p>
-
-          <p>${review.content}</p>
+          ${content}
 
           <button onclick="openSeries('${review.seriesId}')">
             View Full Series
