@@ -9,6 +9,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bone/bone1.jpg",
     file: "reseñas/reseñas/bone/bone1.html",
+    excerpt: "Lorem ipsum...",
     featured: true
   },
    {
@@ -19,6 +20,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bone/bone41.jpg",
     file: "reseñas/reseñas/bone/bone41.html",
+    excerpt: "Lorem ipsum...",
     featured: false
   },
    {
@@ -29,6 +31,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bone/bone42.jpg",
     file: "reseñas/reseñas/bone/bone42.html",
+    excerpt: "Lorem ipsum...",
     featured: false
   },
   {
@@ -39,6 +42,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/bb/bbvol1.jpg",
     file: "reseñas/reseñas/bb/bb-vol1.html",
+    excerpt: "Lorem ipsum...",
     featured: true
   },
   {
@@ -49,6 +53,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bb/bb7.jpg",
     file: "reseñas/reseñas/bb/bb7.html",
+    excerpt: "Lorem ipsum...",
     featured: false
   },
   {
@@ -59,6 +64,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/teotfw/teotfw.png",
     file: "reseñas/reseñas/teotfw/teotfw.html",
+    excerpt: "Lorem ipsum...",
     featured: true
   },
   {
@@ -69,6 +75,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/crossed/wywh.webp",
     file: "reseñas/reseñas/crossed/wywh.html",
+    excerpt: "Lorem ipsum...",
     featured: true
   },
   {
@@ -79,6 +86,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/crossed/crossedog.webp",
     file: "reseñas/reseñas/crossed/og.html",
+    excerpt: "Lorem ipsum...",
     featured: false
   },
   {
@@ -89,6 +97,7 @@ const reviews = [
     type: "issue",
     image: "imgs/usm/usm1.jpg",
     file: "reseñas/reseñas/usm/usm1.html",
+    excerpt: "Lorem ipsum...",
     featured: true
   },
   {
@@ -99,6 +108,7 @@ const reviews = [
     type: "issue",
     image: "imgs/usm/usm2.jpg",
     file: "reseñas/reseñas/usm/usm2.html",
+    excerpt: "Lorem ipsum...",
     featured: false
   },
   {
@@ -109,6 +119,7 @@ const reviews = [
     type: "issue",
     image: "imgs/hellblazer/hellblazer1.jpg",
     file: "reseñas/reseñas/hellblazer/hb1.html",
+    excerpt: "Lorem ipsum...",
     featured: true
   },
   {
@@ -119,6 +130,7 @@ const reviews = [
     type: "issue",
     image: "imgs/hellblazer/hellblazer2.jpg",
     file: "reseñas/reseñas/hellblazer/hb2.html",
+    excerpt: "Lorem ipsum...",
     featured: false
   },
 {
@@ -129,6 +141,7 @@ const reviews = [
   type: "issue",
   image: "imgs/amm/amm10.jpeg",
   file: "reseñas/reseñas/amm/amm10.html",
+  excerpt: "Lorem ipsum...",
   featured: true
 },
 {
@@ -139,6 +152,7 @@ const reviews = [
   type: "issue",
   image: "imgs/amm/amm9.webp",
   file: "reseñas/reseñas/amm/amm9.html",
+  excerpt: "Lorem ipsum...",
   featured: false
 },
   {
@@ -149,6 +163,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/amm/ammvol1.png",
     file: "reseñas/reseñas/amm/amm-vol1.html",
+    excerpt: "Lorem ipsum...",
     featured: false
   }
 ];
@@ -171,8 +186,9 @@ function goHome() {
       <div class="card" onclick="openReview('${review.id}')">
         <img src="${review.image}" alt="${review.title}">
         <div class="card-content">
-          <h3>${review.title}</h3>
-          <p>${review.series}</p>
+          <h3>${review.title}</h3>  
+          <p><strong>${review.series}</strong></p>
+          <p class="excerpt">${review.excerpt}</p>
         </div>
       </div>
     `;
