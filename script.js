@@ -7,7 +7,7 @@ const reviews = [
     series: "Bone",
     seriesId: "bone",
     type: "issue",
-    image: "",
+    image: "imgs/bone/bone1.jpg",
     file: "reseñas/reseñas/bone/bone1.html",
     featured: true
   },
@@ -17,7 +17,7 @@ const reviews = [
     series: "Bone",
     seriesId: "bone",
     type: "issue",
-    image: "",
+    image: "imgs/bone/bone41.jpg",
     file: "reseñas/reseñas/bone/bone41.html",
     featured: false
   },
@@ -27,7 +27,7 @@ const reviews = [
     series: "Bone",
     seriesId: "bone",
     type: "issue",
-    image: "",
+    image: "imgs/bone/bone42.jpg",
     file: "reseñas/reseñas/bone/bone42.html",
     featured: false
   },
@@ -37,7 +37,7 @@ const reviews = [
     series: "Battle Beast",
     seriesId: "bb",
     type: "tpb",
-    image: "",
+    image: "imgs/bb/bbvol1.jpg",
     file: "reseñas/reseñas/bb/bb-vol1.html",
     featured: true
   },
@@ -47,7 +47,7 @@ const reviews = [
     series: "Battle Beast",
     seriesId: "bb",
     type: "issue",
-    image: "",
+    image: "imgs/bb/bb7.jpg",
     file: "reseñas/reseñas/bb/bb7.html",
     featured: false
   },
@@ -57,7 +57,7 @@ const reviews = [
     series: "The End of The Fucking World",
     seriesId: "teotfw",
     type: "tpb",
-    image: "",
+    image: "imgs/teotfw/teotfw.png",
     file: "reseñas/reseñas/teotfw/teotfw.html",
     featured: true
   },
@@ -67,7 +67,7 @@ const reviews = [
     series: "Crossed",
     seriesId: "crossed",
     type: "tpb",
-    image: "",
+    image: "imgs/crossed/wywh.webp",
     file: "reseñas/reseñas/crossed/wywh.html",
     featured: true
   },
@@ -77,7 +77,7 @@ const reviews = [
     series: "Crossed",
     seriesId: "crossed",
     type: "tpb",
-    image: "",
+    image: "imgs/crossed/crossedog.webp",
     file: "reseñas/reseñas/crossed/og.html",
     featured: false
   },
@@ -87,7 +87,7 @@ const reviews = [
     series: "Ultimate Spider-Man (2009)",
     seriesId: "usm",
     type: "issue",
-    image: "",
+    image: "imgs/usm/usm1.jpg",
     file: "reseñas/reseñas/usm/usm1.html",
     featured: true
   },
@@ -97,7 +97,7 @@ const reviews = [
     series: "Ultimate Spider-Man (2009)",
     seriesId: "usm",
     type: "issue",
-    image: "",
+    image: "imgs/usm/usm2.jpg",
     file: "reseñas/reseñas/usm/usm2.html",
     featured: false
   },
@@ -107,7 +107,7 @@ const reviews = [
     series: "Hellblazer",
     seriesId: "hellblazer",
     type: "issue",
-    image: "",
+    image: "imgs/hellblazer/hellblazer1.jpg",
     file: "reseñas/reseñas/hellblazer/hb1.html",
     featured: true
   },
@@ -117,7 +117,7 @@ const reviews = [
     series: "Hellblazer",
     seriesId: "hellblazer",
     type: "issue",
-    image: "",
+    image: "imgs/hellblazer/hellblazer2.jpg",
     file: "reseñas/reseñas/hellblazer/hb2.html",
     featured: false
   },
