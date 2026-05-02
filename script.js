@@ -252,7 +252,7 @@ seriesReviews.forEach(r => {
 
       <div class="card-content">
         <h4>${r.title}</h4>
-        <p><strong>${r.type}</strong></p>
+        <p class="type-label">[${r.type}]</p>
 
         <p class="excerpt">${r.excerpt || ""}</p>
 
