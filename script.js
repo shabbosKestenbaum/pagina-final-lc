@@ -245,17 +245,24 @@ function openSeries(seriesId) {
       <div class="grid">
   `;
 
-  seriesReviews.forEach(r => {
-    html += `
-      <div class="card" onclick="openReview('${r.id}')">
-        <img src="${r.image}">
-        <div class="card-content">
-          <h4>${r.title}</h4>
-          <p>${r.type}</p>
-        </div>
+seriesReviews.forEach(r => {
+  html += `
+    <div class="card">
+      <img src="${r.image}" alt="${r.title}">
+
+      <div class="card-content">
+        <h4>${r.title}</h4>
+        <p><strong>${r.type}</strong></p>
+
+        <p class="excerpt">${r.excerpt || ""}</p>
+
+        <a href="#" onclick="openReview('${r.id}'); return false;" class="read-more">
+          Read more >>
+        </a>
       </div>
-    `;
-  });
+    </div>
+  `;
+});
 
   html += `</div></div>`;
   app.innerHTML = html;
