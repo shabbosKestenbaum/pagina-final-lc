@@ -183,15 +183,20 @@ function goHome() {
 
   featuredReviews.forEach(review => {
     html += `
-      <div class="card" onclick="openReview('${review.id}')">
-        <img src="${review.image}" alt="${review.title}">
-        <div class="card-content">
-          <h3>${review.title}</h3>  
-          <p><strong>${review.series}</strong></p>
-          <p class="excerpt">${review.excerpt}</p>
-        </div>
-      </div>
-    `;
+  <div class="card">
+    <img src="${review.image}" alt="${review.title}">
+    
+    <div class="card-content">
+      <h3>${review.title}</h3>
+      <p><strong>${review.series}</strong></p>
+      <p class="excerpt">${review.excerpt}</p>
+
+      <a href="#" onclick="openReview('${review.id}'); return false;" class="read-more">
+        Leer más >>
+      </a>
+    </div>
+  </div>
+`;
   });
 
   html += `</div></div>`;
