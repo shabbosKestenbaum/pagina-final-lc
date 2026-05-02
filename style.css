@@ -10,6 +10,15 @@ header {
   background-color: #d6daf0;
   border-bottom: 1px solid #b7c5d9;
   padding: 10px;
+  position: sticky;
+  top: 0;
+
+  background-color: #d6daf0; 
+  border-bottom: 1px solid #b7c5d9;
+
+  z-index: 1000; 
+
+  box-shadow: 0 1px 0 #b7c5d9;
 }
 
 h1 {
