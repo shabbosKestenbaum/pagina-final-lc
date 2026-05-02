@@ -72,7 +72,7 @@ const reviews = [
     title: "Crossed: Wish You Were Here",
     series: "Crossed",
     seriesId: "crossed",
-    type: "tpb",
+    type: "full run",
     image: "imgs/crossed/wywh.webp",
     file: "reseñas/reseñas/crossed/wywh.html",
     excerpt: "Lorem ipsum...",
@@ -157,10 +157,10 @@ const reviews = [
 },
   {
     id: "amm-vol1",
-    title: "Absolute Martian Manhunter Vol. 1: Martian Vision (TPB)",
+    title: "Absolute Martian Manhunter Vol. 1: Martian Vision (HC)",
     series: "Absolute Martian Manhunter",
     seriesId: "amm",
-    type: "tpb",
+    type: "hc",
     image: "imgs/amm/ammvol1.png",
     file: "reseñas/reseñas/amm/amm-vol1.html",
     excerpt: "Lorem ipsum...",
@@ -184,7 +184,7 @@ function renderCard(review) {
         <p class="excerpt">${review.excerpt || ""}</p>
 
         <a href="#" onclick="openReview('${review.id}'); return false;" class="read-more">
-          Read more >>
+          Leer más >>
         </a>
       </div>
     </div>
