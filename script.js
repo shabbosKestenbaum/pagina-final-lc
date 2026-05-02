@@ -168,6 +168,29 @@ const reviews = [
   }
 ];
 
+// CARD RENDERER
+
+function renderCard(review) {
+  return `
+    <div class="card">
+      <img src="${review.image}" alt="${review.title}">
+
+      <div class="card-content">
+        <h4>${review.title}</h4>
+        <p><strong>${review.series || ""}</strong></p>
+
+        <p class="type-label">[${review.type}]</p>
+
+        <p class="excerpt">${review.excerpt || ""}</p>
+
+        <a href="#" onclick="openReview('${review.id}'); return false;" class="read-more">
+          Read more >>
+        </a>
+      </div>
+    </div>
+  `;
+}
+
 // PÁGINA DE INICIO
 
 function goHome() {
@@ -182,22 +205,8 @@ function goHome() {
   `;
 
   featuredReviews.forEach(review => {
-    html += `
-  <div class="card">
-    <img src="${review.image}" alt="${review.title}">
-    
-    <div class="card-content">
-      <h3>${review.title}</h3>
-      <p><strong>${review.series}</strong></p>
-      <p class="excerpt">${review.excerpt}</p>
-
-      <a href="#" onclick="openReview('${review.id}'); return false;" class="read-more">
-        Leer más >>
-      </a>
-    </div>
-  </div>
-`;
-  });
+  html += renderCard(review);
+});
 
   html += `</div></div>`;
   app.innerHTML = html;
@@ -246,22 +255,7 @@ function openSeries(seriesId) {
   `;
 
 seriesReviews.forEach(r => {
-  html += `
-    <div class="card">
-      <img src="${r.image}" alt="${r.title}">
-
-      <div class="card-content">
-        <h4>${r.title}</h4>
-        <p class="type-label">[${r.type}]</p>
-
-        <p class="excerpt">${r.excerpt || ""}</p>
-
-        <a href="#" onclick="openReview('${r.id}'); return false;" class="read-more">
-          Read more >>
-        </a>
-      </div>
-    </div>
-  `;
+  html += renderCard(r);
 });
 
   html += `</div></div>`;
@@ -271,3 +265,4 @@ seriesReviews.forEach(r => {
 // INICIO
 
 goHome();
+
