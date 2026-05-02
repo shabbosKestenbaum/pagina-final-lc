@@ -127,7 +127,7 @@ const reviews = [
   series: "Absolute Martian Manhunter",
   seriesId: "amm",
   type: "issue",
-  image: "images/amm10.jpg",
+  image: "imgs/amm/amm10.jpeg",
   file: "reseñas/reseñas/amm/amm10.html",
   featured: true
 },
@@ -137,17 +137,17 @@ const reviews = [
   series: "Absolute Martian Manhunter",
   seriesId: "amm",
   type: "issue",
-  image: "images/amm10.jpg",
+  image: "imgs/amm/amm9.webp",
   file: "reseñas/reseñas/amm/amm9.html",
   featured: false
 },
   {
     id: "amm-vol1",
-    title: "Absolute Martian Manhunter Vol. 1 (TPB)",
+    title: "Absolute Martian Manhunter Vol. 1: Martian Vision (TPB)",
     series: "Absolute Martian Manhunter",
     seriesId: "amm",
     type: "tpb",
-    image: "",
+    image: "imgs/amm/ammvol1.png",
     file: "reseñas/reseñas/amm/amm-vol1.html",
     featured: false
   }
