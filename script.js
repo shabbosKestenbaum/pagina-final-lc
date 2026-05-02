@@ -168,6 +168,36 @@ const reviews = [
   }
 ];
 
+// test
+
+function goHomeAndReset() {
+  window.history.pushState({}, "", "index.html");
+  goHome();
+}
+
+function renderSidebar() {
+  const sidebar = document.getElementById("sidebar");
+
+  // get unique series
+  const seriesMap = {};
+
+  reviews.forEach(r => {
+    seriesMap[r.seriesId] = r.series;
+  });
+
+  let html = `<h3>Archive</h3>`;
+
+  Object.entries(seriesMap).forEach(([id, name]) => {
+    html += `
+      <a href="#" class="sidebar-link" onclick="openSeries('${id}'); return false;">
+        ${name}
+      </a>
+    `;
+  });
+
+  sidebar.innerHTML = html;
+}
+
 // CARD RENDERER
 
 function renderCard(review) {
@@ -261,6 +291,25 @@ seriesReviews.forEach(r => {
   html += `</div></div>`;
   app.innerHTML = html;
 }
+
+
+//test 2
+
+function init() {
+  renderSidebar();
+  goHome();
+
+  const params = new URLSearchParams(window.location.search);
+  const reviewId = params.get("review");
+
+  if (reviewId) {
+    openReview(reviewId);
+  } else {
+    goHome();
+  }
+}
+
+init();
 
 // INICIO
 
