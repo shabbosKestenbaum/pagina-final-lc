@@ -162,7 +162,7 @@ function goHome() {
 
   let html = `
     <div class="container">
-      <h2>Featured Reviews</h2>
+      <h2>Reseñas Recomendadas</h2>
       <div class="grid">
   `;
 
