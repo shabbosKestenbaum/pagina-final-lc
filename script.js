@@ -112,24 +112,24 @@ const reviews = [
     featured: false
   },
   {
-    id: "hb-1",
-    title: "Hellblazer #1",
-    series: "Hellblazer",
-    seriesId: "hellblazer",
+    id: "pwbf-1",
+    title: "The Punisher (2000) #1",
+    series: "The Punisher: Welcome Back, Frank",
+    seriesId: "pwbf",
     type: "issue",
     image: "imgs/hellblazer/hellblazer1.jpg",
-    file: "reseñas/reseñas/hellblazer/hb1.html",
+    file: "reseñas/reseñas/pwbf/pwbf1.html",
     excerpt: "Lorem ipsum...",
     featured: true
   },
   {
-    id: "hb-2",
-    title: "Hellblazer #2",
-    series: "Hellblazer",
-    seriesId: "hellblazer",
+    id: "pwbf-2",
+    title: "The Punisher (2000) #2",
+    series: "The Punisher: Welcome Back, Frank",
+    seriesId: "pwbf",
     type: "issue",
     image: "imgs/hellblazer/hellblazer2.jpg",
-    file: "reseñas/reseñas/hellblazer/hb2.html",
+    file: "reseñas/reseñas/pwbf/pwbf2.html",
     excerpt: "Lorem ipsum...",
     featured: false
   },
@@ -141,7 +141,7 @@ const reviews = [
   type: "issue",
   image: "imgs/amm/amm10.jpeg",
   file: "reseñas/reseñas/amm/amm10.html",
-  excerpt: "Lorem ipsum...",
+  excerpt: "John se enfrenta a Rainbow mientras que el séquito de White Martian diseca a su compañero. La manipulación de Tyler va de mal en peor.",
   featured: true
 },
 {
