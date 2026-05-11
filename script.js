@@ -119,7 +119,7 @@ const reviews = [
     type: "issue",
     image: "imgs/pwbf/pwbf1.jpg",
     file: "reseñas/reseñas/pwbf/pwbf1.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Punisher está de vuelta, y esta vez más violento que nunca. Garth Ennis reintroduce al personaje con su característica irreverencia y da pie al futuro de Frank Castle.",
     featured: true
   },
   {
