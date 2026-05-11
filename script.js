@@ -117,7 +117,7 @@ const reviews = [
     series: "The Punisher: Welcome Back, Frank",
     seriesId: "pwbf",
     type: "issue",
-    image: "imgs/hellblazer/hellblazer1.jpg",
+    image: "imgs/pwbf/pwbf1.jpg",
     file: "reseñas/reseñas/pwbf/pwbf1.html",
     excerpt: "Lorem ipsum...",
     featured: true
@@ -128,7 +128,7 @@ const reviews = [
     series: "The Punisher: Welcome Back, Frank",
     seriesId: "pwbf",
     type: "issue",
-    image: "imgs/hellblazer/hellblazer2.jpg",
+    image: "imgs/pwbf/pwbf2.jpg",
     file: "reseñas/reseñas/pwbf/pwbf2.html",
     excerpt: "Lorem ipsum...",
     featured: false
