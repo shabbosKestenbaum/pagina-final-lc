@@ -163,7 +163,7 @@ const reviews = [
     type: "hc",
     image: "imgs/amm/ammvol1.png",
     file: "reseñas/reseñas/amm/amm-vol1.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "El detective del FBI John Jones busca la verdad detrás de una serie de eventos inexplicables por la psicología humana.",
     featured: false
   }
 ];
