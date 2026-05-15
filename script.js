@@ -42,7 +42,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/bb/bbvol1.jpg",
     file: "reseñas/reseñas/bb/bb-vol1.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Kirkman se junta con Ottley una vez más para traer de vuelta a un favorito del universo de Invincible, está vez más fantástico y violento que nunca.",
     featured: true
   },
   {
