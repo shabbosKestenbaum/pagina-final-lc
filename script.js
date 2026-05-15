@@ -130,7 +130,7 @@ const reviews = [
     type: "issue",
     image: "imgs/pwbf/pwbf2.jpg",
     file: "reseñas/reseñas/pwbf/pwbf2.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Mientras Punisher continúa su vendetta contra los Gnucci, descubrimos nuevos aliados (¿o problemas?) y la violencia no cesa.",
     featured: false
   },
 {
@@ -152,7 +152,7 @@ const reviews = [
   type: "issue",
   image: "imgs/amm/amm9.webp",
   file: "reseñas/reseñas/amm/amm9.html",
-  excerpt: "Lorem ipsum...",
+  excerpt: "John enfrenta nuevos demonios (o marcianos) mientras su familia se derrumba. La Agencia abre al Marciano Verde desde adentro. ¿La desesperación? La única opción.",
   featured: false
 },
   {
