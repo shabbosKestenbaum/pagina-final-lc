@@ -20,7 +20,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bone/bone41.jpg",
     file: "reseñas/reseñas/bone/bone41.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Ben, Thorn y los primos Bone se encuentran perdidos y hambrientos navegando por oscuridad y ceniza. Mientras tanto, aquellos aldeanos que siguen con vida sufren las consecuencias de algo que no entienden.",
     featured: false
   },
    {
