@@ -261,7 +261,7 @@ async function openReview(id) {
           ${content}
 
           <button onclick="openSeries('${review.seriesId}')">
-            View Full Series
+            Ver Serie Completa
           </button>
         </div>
 
