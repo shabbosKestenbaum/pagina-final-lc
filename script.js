@@ -86,7 +86,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/crossed/crossedog.webp",
     file: "reseñas/reseñas/crossed/og.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Stan y su grupo de sobrevivientes sufren el sadismo y terror de los Crossed: Una infección que te transforma en un monstruo con sed de sangre -- pero no un zombi... no... mucho peor.",
     featured: false
   },
   {
