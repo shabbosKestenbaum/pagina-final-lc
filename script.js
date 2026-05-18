@@ -9,7 +9,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bone/bone1.jpg",
     file: "reseñas/reseñas/bone/bone1.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Los primos Bone son exiliados de Boneville y ahora buscan que los espera. No saben que el futuro tiene grandes planes para ellos.",
     featured: true
   },
    {
