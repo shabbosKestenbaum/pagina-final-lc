@@ -108,7 +108,7 @@ const reviews = [
     type: "issue",
     image: "imgs/usm/usm2.jpg",
     file: "reseñas/reseñas/usm/usm2.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Mysterio se proclama públicamente ante el mundo mientras Peter lidia con sueños perturbadores y la nueva realidad de tener a Johnny Storm viviendo en su casa. Kitty Pryde reaparece en la escuela, y un dúo villano conocido como las Bombshells hace su debut.",
     featured: false
   },
   {
