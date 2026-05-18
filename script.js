@@ -75,7 +75,7 @@ const reviews = [
     type: "full run",
     image: "imgs/crossed/wywh.webp",
     file: "reseñas/reseñas/crossed/wywh.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Shakey, un cobarde sobreviviente del apocalípsis Crossed, nos lleva a través de su travesía sobreviviendo el mundo de violencia imposible que lo rodea. ¿Existe el amor? Si sí, entonces viene a acabar con él y lo que queda de su humanidad.",
     featured: true
   },
   {
