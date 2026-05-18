@@ -31,7 +31,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bone/bone42.jpg",
     file: "reseñas/reseñas/bone/bone42.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Secretos salen a la luz mientras Thorn y Fone Bone se arriesgan para salvar a Smiley.",
     featured: false
   },
   {
