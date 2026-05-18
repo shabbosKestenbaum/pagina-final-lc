@@ -53,7 +53,7 @@ const reviews = [
     type: "issue",
     image: "imgs/bb/bb7.jpg",
     file: "reseñas/reseñas/bb/bb7.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Thokk sana, determinado a vengarse de su nuevo rival -- buscando una muerte digna. Mientras que antiguos príncipes redescubren su pasado.",
     featured: false
   },
   {
