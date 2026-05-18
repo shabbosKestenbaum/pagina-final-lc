@@ -97,7 +97,7 @@ const reviews = [
     type: "issue",
     image: "imgs/usm/usm1.jpg",
     file: "reseñas/reseñas/usm/usm1.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Seis meses después de Ultimatum, Peter Parker intenta retomar su vida normal trabajando en una hamburguesería mientras un nuevo y despiadado Mysterio hace su entrada eliminando al Kingpin y declarándose el nuevo dueño del crimen organizado.",
     featured: true
   },
   {
