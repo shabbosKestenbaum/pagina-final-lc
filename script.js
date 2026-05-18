@@ -64,7 +64,7 @@ const reviews = [
     type: "tpb",
     image: "imgs/teotfw/teotfw.png",
     file: "reseñas/reseñas/teotfw/teotfw.html",
-    excerpt: "Lorem ipsum...",
+    excerpt: "Un road trip entre un psicópata y una chica con daddy issues podría terminar fatal... En todo sentido.",
     featured: true
   },
   {
